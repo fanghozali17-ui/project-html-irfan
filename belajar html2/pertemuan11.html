@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+
+    <form>
+        <!-- 1. Text Input & Password -->
+        Nama Depan: <input type="text"><br>
+        Nama Belakang: <input type="text"><br>
+        Password: <input type="password"><br>
+
+        <!-- 2. Radio Button (Pilih Salah Satu) -->
+        <h4>WNI</h4>
+        <input type="radio" name="WNI" value="ya" id="ya">
+        <label for="ya">Ya</label>
+
+        <input type="radio" name="WNI" value="tidak" id="tidak">
+        <label for="tidak">Tidak</label>
+
+        <!-- 3. Checkbox -->
+        <h4>Musik Favorit</h4>
+        <input type="checkbox" name="musik" value="dangdut" id="dangdut">
+        <label for="dangdut">Dangdut</label>
+
+        <input type="checkbox" name="musik" value="jazz" id="jazz">
+        <label for="jazz">Jazz</label>
+
+        <!-- 4. Drop-down List -->
+        <h4>Pekerjaan</h4>
+        <select name="pekerjaan">
+            <option value="mahasiswa">Mahasiswa</option>
+            <option value="wirausaha">Wirausaha</option>
+        </select>
+        <br><br>
+
+        <!-- 5. Upload File -->
+        <h4>Upload Foto</h4>
+        <input type="file" name="foto" value="upload_foto">
+        <br><br>
+
+        <!-- 6. Tombol Submit -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
